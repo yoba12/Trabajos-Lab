@@ -1,0 +1,5 @@
+module flopr #(input logic clk, input logic reset, parameter d_N = 64, parameter q_N = 64);
+	always_ff @(posedge clk, posedge reset)
+		if(reset) q_N <= N'b0;
+		else q_N <= d_N;
+endmodule

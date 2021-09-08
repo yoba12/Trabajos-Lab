@@ -1,0 +1,60 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/yoba/Desktop/Trabajos-lab/Arq/TP1/simulation/modelsim
+vsignext
+Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z2 !s110 1631131707
+!i10b 1
+!s100 zSNnebDJP^ldPWma[mBKf3
+IdZLeQki;L2`C]M^NfZ[Y83
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+!s105 signext_sv_unit
+S1
+R0
+w1631130622
+8/home/yoba/Desktop/Trabajos-lab/Arq/TP1/Files/signext.sv
+F/home/yoba/Desktop/Trabajos-lab/Arq/TP1/Files/signext.sv
+L0 12
+Z4 OV;L;10.5b;63
+r1
+!s85 0
+31
+!s108 1631131706.000000
+!s107 /home/yoba/Desktop/Trabajos-lab/Arq/TP1/Files/signext.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/yoba/Desktop/Trabajos-lab/Arq/TP1/Files|/home/yoba/Desktop/Trabajos-lab/Arq/TP1/Files/signext.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work +incdir+/home/yoba/Desktop/Trabajos-lab/Arq/TP1/Files
+Z7 tCvgOpt 0
+vsignext_tb
+R1
+R2
+!i10b 1
+!s100 bfRQHm`:KA;2>81im_F:[1
+IF=Gh]_[SSaES1DXL?mbIc0
+R3
+!s105 signext_tb_sv_unit
+S1
+R0
+w1631131701
+8/home/yoba/Desktop/Trabajos-lab/Arq/TP1/Files/signext_tb.sv
+F/home/yoba/Desktop/Trabajos-lab/Arq/TP1/Files/signext_tb.sv
+L0 7
+R4
+r1
+!s85 0
+31
+!s108 1631131707.000000
+!s107 /home/yoba/Desktop/Trabajos-lab/Arq/TP1/Files/signext_tb.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/yoba/Desktop/Trabajos-lab/Arq/TP1/Files|/home/yoba/Desktop/Trabajos-lab/Arq/TP1/Files/signext_tb.sv|
+!i113 1
+R5
+R6
+R7

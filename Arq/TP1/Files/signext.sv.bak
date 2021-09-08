@@ -1,0 +1,11 @@
+/*
+Input a -> 32b
+Output y -> 64b
+Analisis de opcodes implementados y conectar el campo inmediato al Output
+Tiene Campo inmediato -> extender
+Sin valor inmediato ->  0
+LDUR |      Load Register         | 111_1100_0010
+STUR |      Store Register        | 111_1100_0000
+CBZ  | Compare and branch if zero | 101_1010_0???*
+
+*/

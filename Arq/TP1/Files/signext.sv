@@ -14,13 +14,13 @@ module signext #(parameter DATA_WIDTH=64)(input logic [31:0] a,
 		always_comb
 		casez(a[31:21])
 		//LDUR
-			11'b111_1100_0010 : y = {{55{a[20]}},a[20:12]};
+			11'b11111000010 : y = {{55{a[20]}},a[20:12]};
 		
 		//STUR
-			11'b111_1100_0000 : y = {{55{a[20]}},a[20:12]};
+			11'b11111000000 : y = {{55{a[20]}},a[20:12]};
 		
 		//CBZ
-			11'b101_1010_0??? : y = {{43{a[23]}},a[23:5],00}; //aca profe no sigio el greencard
-			default: y = 0;
+			11'b10110100??? : y = {{43{a[23]}},a[23:5],2'b00}; //aca profe no sigio el greencard
+			default: y = '0;
 		endcase
 endmodule

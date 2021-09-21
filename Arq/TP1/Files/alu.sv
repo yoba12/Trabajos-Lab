@@ -37,8 +37,8 @@ module alu #(parameter data_width = 64)
 			default: result= a+b;
 		endcase
 		
-		if(result == 0) zero <= '1;
-		else zero =  '0;
+		if(result == 0) zero <= 1'b1;
+		else zero <=  1'b0;
 		end
 		
 		

@@ -20,7 +20,7 @@ module flopr_tb();
 	//clock generation @100MHz 10ns
 	always
 		begin
-				clk = 1; #10000; clk=0; #10000;
+				clk = 1; #10; clk=0; #10;
 		end
 	
 	//Test pulse 
